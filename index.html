@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Material 3 Website</title>
+  <!-- Material 3 Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@material/material-web@0.28.0/dist/material-web.min.css" rel="stylesheet">
+  <script defer src="https://cdn.jsdelivr.net/npm/@material/material-web@0.28.0/dist/material-web.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <mwc-top-app-bar>
+      <mwc-icon-button icon="menu" slot="navigationIcon"></mwc-icon-button>
+      <div slot="title">Material 3 Website</div>
+      <mwc-icon-button icon="account_circle" slot="actionItems"></mwc-icon-button>
+    </mwc-top-app-bar>
+  </header>
+
+  <main>
+    <section>
+      <h1>Welcome to Material 3 Website</h1>
+      <p>This is a simple website using Material 3.</p>
+      <mwc-button raised label="Learn More"></mwc-button>
+    </section>
+
+    <section>
+      <mwc-card>
+        <h2>Feature 1</h2>
+        <p>Details about feature 1.</p>
+      </mwc-card>
+      <mwc-card>
+        <h2>Feature 2</h2>
+        <p>Details about feature 2.</p>
+      </mwc-card>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Your Website. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
